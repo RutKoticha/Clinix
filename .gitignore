@@ -1,0 +1,112 @@
+# ==================================================
+# Java / Maven
+# ==================================================
+
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Maven wrapper should remain tracked:
+# forge/mvnw
+# forge/.mvn/wrapper/maven-wrapper.properties
+
+
+# ==================================================
+# Node.js / React / Vite
+# ==================================================
+
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+**/*.tsbuildinfo
+
+# Package lockfiles must remain tracked:
+# lens/package-lock.json
+
+
+# ==================================================
+# Runtime data and generated files
+# ==================================================
+
+# Uploaded documents and local patient files
+forge/uploads/
+
+# Application and development logs
+*.log
+logs/
+**/logs/
+
+# Local database files / data directories
+**/pgdata/
+**/postgres-data/
+**/database-data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+
+# ==================================================
+# Environment variables and secrets
+# ==================================================
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local-only Spring configuration
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
+
+
+# ==================================================
+# IDE / editor files
+# ==================================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code: ignore workspace state but keep shared settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+
+# ==================================================
+# Operating system files
+# ==================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+
+# ==================================================
+# Local tool caches
+# ==================================================
+
+.cache/
+.parcel-cache/
+.turbo/
